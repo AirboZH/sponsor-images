@@ -23,6 +23,7 @@ export default defineConfig({
     },
     {
       title: '☕来杯JAVA',
+      monthlyDollars: 15,
       preset: presets.xl,
     },
   ],
