@@ -13,6 +13,7 @@ export default defineConfig({
     },
     {
       title: '🍟吃包薯条',
+      monthlyDollars: 1,
       preset: presets.large,
     },
   ],
