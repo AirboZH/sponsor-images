@@ -3,33 +3,17 @@ import { defineConfig, presets } from 'sponsorkit'
 export default defineConfig({
   tiers: [
     {
-      title: 'Past Sponsors',
+      title: '投喂过的朋友们',
       monthlyDollars: -1,
       preset: presets.xs,
     },
     {
-      title: 'Backers',
-      preset: presets.small,
-    },
-    {
-      title: 'Generous Backers',
-      monthlyDollars: 3,
+      title: '🍺喝杯啤酒',
       preset: presets.base,
     },
     {
-      title: 'Bronze Sponsors',
-      monthlyDollars: 7,
+      title: '🍟吃包薯条',
       preset: presets.large,
-    },
-    {
-      title: 'Silver Sponsors',
-      monthlyDollars: 15,
-      preset: presets.large,
-    },
-    {
-      title: 'Gold Sponsors',
-      monthlyDollars: 30,
-      preset: presets.xl,
     },
   ],
 })
