@@ -8,8 +8,8 @@ export default defineConfig({
       preset: presets.xs,
     },
     {
-      title: '☕来杯咖啡',
-      preset: presets.base,
+      title: '喝口水',
+      preset: presets.base, 
     },
     {
       title: '🍺喝杯啤酒',
@@ -20,6 +20,10 @@ export default defineConfig({
       title: '🍟吃包薯条',
       monthlyDollars: 0.82,
       preset: presets.large,
+    },
+    {
+      title: '☕来杯JAVA',
+      preset: presets.xl,
     },
   ],
 })
