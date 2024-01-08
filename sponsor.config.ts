@@ -25,6 +25,20 @@ export default defineConfig({
       title: '☕来杯JAVA',
       monthlyDollars: 13.72,
       preset: presets.xl,
+      composeBefore: (composer, tierSponsors, config) => {
+        tierSponsors.push(  {
+          sponsor: {
+            type: 'User',
+            login: '260d6452113451ee9c785254001e7c00',
+            name: 'Acherlian',
+            avatarUrl: 'https://acherlian.com/upload/Acher.png',
+          },
+          monthlyDollars: 14.0,
+          tierName: 'wexin',
+          isOneTime: true,
+          privacyLevel: 'PUBLIC'
+        })
+      },
     },
   ],
 })
