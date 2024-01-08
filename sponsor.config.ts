@@ -25,18 +25,6 @@ export default defineConfig({
       title: '☕来杯JAVA',
       monthlyDollars: 13.72,
       preset: presets.xl,
-      composeAfter: (composer, _tierSponsors, _config) => {
-        _tierSponsors.push({
-          sponsor: {
-            type: 'User',
-            login: 'example',
-            name: 'Example',
-            avatarUrl: 'https://avatars.githubusercontent.com/u/10251037?v=4',
-          },
-          monthlyDollars: 100,
-          privacyLevel: 'PUBLIC',
-        })
-      },
     },
   ],
 })
